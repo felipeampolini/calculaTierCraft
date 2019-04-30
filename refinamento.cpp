@@ -32,7 +32,7 @@ int main(){
             case 4: mensagem();
                     cin >> refinado;
                     t4 = refinado*2;
-                    t3 = t4*2;
+                    t3 = t4;
                     t2 = t3/2;
                     cout << "Voce ira precisar de " << t4 << " T4, " << t3 << " T3 e " << t2 << " T2 para fabricar.";
                     break;
